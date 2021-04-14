@@ -18,7 +18,7 @@ window.onscroll = () => {
 
 	  //HOME
     if (window.pageYOffset >= 500) {
-    	document.querySelector('.home').style.right = '5%';
+    	document.querySelector('.home').style.right = '10px';
     }else{
     	document.querySelector('.home').style.right = '-100%';
     }
