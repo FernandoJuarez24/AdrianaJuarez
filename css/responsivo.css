@@ -79,20 +79,18 @@
 
 @media only screen and (max-width: 590px){
 	.ilustraciones .tituloSecciones{
-		width: 80%;
+		width: 100%;
 		text-align: center;
+		font-size: 15px;
 	}
 	.ilustraciones .contenedorIlustraciones{
-		width: 80%;
+		width: 100%;
 	}
 	.galeriaModal #imgModal{
 		width: 61%;
 	}
 	.ilustraciones .tituloIlustraciones h1{
 		font-size: 40px;
-	}
-	.ilustraciones .tituloSecciones{
-		font-size: 15px;
 	}
 	.about .infoAbout h2{
 		font-size: 40px;
