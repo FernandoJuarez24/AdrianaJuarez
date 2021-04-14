@@ -55,6 +55,7 @@
 	}
 	.about .infoAbout .aboutGallery{
 		flex-direction: column;
+		margin:50px -9px;
 	}
 	.about .infoAbout .aboutGallery img{
 		width: 100%;
