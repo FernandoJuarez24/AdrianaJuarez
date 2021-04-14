@@ -145,6 +145,7 @@ body{
 	font-size: 50px;
 	font-weight: normal;
 	color:var(--negro);
+	text-align: center;
 }
 .about .infoAbout p{
 	font-size: 19px;
@@ -160,7 +161,7 @@ body{
 	margin:50px 0;
 }
 .about .infoAbout .aboutGallery img{
-	width: calc(33.33% -10px);
+	width: calc(33.33% - 10px);
 	height: 300px;
 	object-fit: cover;
 	margin:10px;
@@ -282,6 +283,11 @@ body{
 	transition: 0.5s;
 	font-size: 20px;
 	color:var(--negro);
+}
+.home:hover{
+	background: var(--negro);
+	border: 3px solid var(--rosa);
+	color:var(--rosa);
 }
 
 /*FOOTER*/

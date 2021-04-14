@@ -51,7 +51,7 @@
 		font-size: 50px;
 	}
 	.about .infoAbout p{
-		font-size: 15px;
+		font-size: 18px;
 	}
 	.about .infoAbout .aboutGallery{
 		flex-direction: column;
@@ -74,5 +74,31 @@
 	.galeriaModal #imgModal{
 		width: 42%;
 		height: 450px;
+	}
+}
+
+@media only screen and (max-width: 590px){
+	.ilustraciones .tituloSecciones{
+		width: 80%;
+		text-align: center;
+	}
+	.ilustraciones .contenedorIlustraciones{
+		width: 80%;
+	}
+	.galeriaModal #imgModal{
+		width: 61%;
+	}
+}
+
+@media only screen and (max-width:890px){
+	.ilustraciones .contenedorIlustraciones{
+		width: 90%;
+	}
+	.ilustraciones .tituloSecciones{
+		width: 90%;
+	}
+	.galeriaModal #imgModal{
+		height: 500px;
+		width:42%;
 	}
 }
