@@ -85,10 +85,11 @@ body{
 .menuNav .logo{
 	margin-left: 50px;
 }
-.menuNav .logo h1{
+.menuNav .logo h1 a{
 	font-weight: normal;
 	font-size: 25px;
 	color:var(--azul);
+	text-decoration: none;
 }
 .menuNav .contenedorMenu{
 	margin-right: 50px;
