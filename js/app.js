@@ -31,6 +31,7 @@ window.onscroll = () => {
 
 //MENU RESPONSIVO
 btnMenu.addEventListener('click', () => {
+	 document.querySelector('.btnMenu i').classList.toggle('fa-times');
 	if(on_off){
 		contenedorLista.style.left = '0';
 		on_off = false;
@@ -40,6 +41,7 @@ btnMenu.addEventListener('click', () => {
 		on_off = true;
 	}
 });
+
 
 //GALERIA MODAL
 const images = document.querySelectorAll('.imgCard img');

@@ -31,7 +31,7 @@
 		left:-100%;
 		width: 100%;
 		height: calc(50vh - 65px);
-		background: var(--rosa);
+		background: var(--azulClaro);
 	}
 	.menuNav .contenedorMenu .lista{
 		width: 100%;
