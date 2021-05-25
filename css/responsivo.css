@@ -66,7 +66,10 @@
 	}
 	.about .aboutImg .aboutContenedor{
 		width: 85%;
-
+	}
+	.imgHeader .headerInfo .btnDown{
+		font-size: 15px;
+		padding: 20px;
 	}
 }
 
@@ -117,6 +120,10 @@
 	}
 	.about .aboutImg .aboutTitulo h2{
 		font-size: 35px;
+	}
+	.imgHeader .headerInfo .btnDown{
+		font-size: 15px;
+		padding: 20px;
 	}
 }
 
