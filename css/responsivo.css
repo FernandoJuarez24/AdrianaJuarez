@@ -72,16 +72,18 @@
 
 @media only screen and (max-width: 590px){
 	.ilustraciones .tituloSecciones{
-		width: 100%;
+		width: 85%;
 		text-align: center;
 		font-size: 15px;
 		font-weight: lighter;
 	}
-	.ilustraciones .contenedorIlustraciones{
+	/*.ilustraciones .contenedorIlustraciones{
 		width: 100%;
-	}
+	}*/
 	.galeriaModal #imgModal{
-		width: 70%;
+		width: 80%;
+		height: 550px;
+		margin-top: 30px;
 	}
 	.ilustraciones .tituloIlustraciones h1{
 		font-size: 40px;
