@@ -132,7 +132,7 @@ body{
 .about{
 	position:relative;
 	width: 100%;
-	height: 100vh;
+	height: 100%;
 }
 .about .aboutImg{
 	background: url(../img/about.jpg);
@@ -151,10 +151,11 @@ body{
 }
 .about .aboutImg .aboutContenedor{
 	width: 70%;
-	text-align: center;
+	height: 100%;
+	margin:200px 0;
 }
 .about .aboutImg .aboutContenedor .aboutTitulo{
-	padding-bottom: 100px;
+	margin-bottom: 100px;
 }
 .about .aboutImg .aboutTitulo h2{
 	width: 100%;

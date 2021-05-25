@@ -47,19 +47,7 @@
 	.menuNav .contenedorMenu .lista li a{
 		font-size: 25px;
 	}
-	.about .infoAbout h2{
-		font-size: 50px;
-	}
-	.about .infoAbout p{
-		font-size: 18px;
-	}
-	.about .infoAbout .aboutGallery{
-		flex-direction: column;
-		margin:50px -9px;
-	}
-	.about .infoAbout .aboutGallery img{
-		width: 100%;
-	}
+
 	.ilustraciones .tituloIlustraciones h2{
 		font-size: 50px;
 	}
@@ -75,6 +63,10 @@
 	.galeriaModal #imgModal{
 		width: 42%;
 		height: 450px;
+	}
+	.about .aboutImg .aboutContenedor{
+		width: 85%;
+
 	}
 }
 
@@ -92,9 +84,6 @@
 		width: 70%;
 	}
 	.ilustraciones .tituloIlustraciones h1{
-		font-size: 40px;
-	}
-	.about .infoAbout h2{
 		font-size: 40px;
 	}
 	.menuNav .logo{
@@ -120,7 +109,13 @@
 	}
 	.ilustraciones .contenedorIlustraciones .imgCard:hover img{
 	transform:none;
-}
+	}
+	.about .aboutImg p{
+		font-size: 20px;
+	}
+	.about .aboutImg .aboutTitulo h2{
+		font-size: 35px;
+	}
 }
 
 @media only screen and (max-width: 360px){
