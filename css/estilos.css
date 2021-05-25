@@ -29,15 +29,13 @@ body{
 	position:relative;
 }
 .imgHeader{
+	position:relative;
+	width: 100%;
+	height: 100vh;
 	background: url(../img/header.jpg);
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
-	background-color: rgba(0,0,0,0.7);
-	background-blend-mode: soft-light;
-	position: relative;
-	width: 100%;
-	height: 100vh;
 }
 .imgHeader .headerInfo{
 	position: absolute;
@@ -50,6 +48,7 @@ body{
 	flex-direction: column;
 	align-items: center;
 	z-index:100;
+	background: rgba(0,0,0,0.7);
 }
 .imgHeader .headerInfo h2{
 	color:var(--blanco);
@@ -131,43 +130,47 @@ body{
 
 /*ABOUT*/
 .about{
+	position:relative;
 	width: 100%;
-	background: var(--rosa);
+	height: 100vh;
 }
-.about .infoAbout{
-	width: 80%;
-	margin:100px auto;
-	padding:50px 0;
-}
-.about .infoAbout h2{
+.about .aboutImg{
+	background: url(../img/about.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-color: rgba(0,0,0,0.8);
+	background-blend-mode: soft-light;
+	position: relative;
+	width: 100%;
+	height: 100%;
 	display: flex;
 	justify-content: center;
-	font-size: 50px;
-	font-weight: normal;
-	color:var(--blanco);
+	align-items: center;
+	flex-direction: column;
+}
+.about .aboutImg .aboutContenedor{
+	width: 70%;
 	text-align: center;
 }
-.about .infoAbout p{
-	font-size: 19px;
-	color:var(--blanco);
-	line-height: 40px;
-	margin:30px 0;
-	text-align: center;
+.about .aboutImg .aboutContenedor .aboutTitulo{
+	padding-bottom: 100px;
 }
-.about .infoAbout .aboutGallery{
+.about .aboutImg .aboutTitulo h2{
 	width: 100%;
-	display:flex;
-	justify-content: center;
-	margin:50px 0;
+	color:var(--blanco);
+	font-size: 40px;
+	font-weight: lighter;
+	text-align: center;
+	line-height: 50px;
 }
-.about .infoAbout .aboutGallery img{
-	width: calc(33.33% - 10px);
-	height: 300px;
-	object-fit: cover;
-	margin:10px;
-	border-radius: 10px;
-	cursor: pointer;
-	border:3px solid var(--blanco);
+.about .aboutImg p{
+	width: 100%;
+	color:var(--blanco);
+	font-size: 22px;
+	font-weight: lighter;
+	text-align: center;
+	line-height: 50px;
 }
 
 /*ILUSTRACIONES*/
@@ -175,7 +178,7 @@ body{
 	width: 100%;
 	/*margin: 150px 0;*/
 	background: var(--blanco);
-	padding:50px;
+	padding:150px 0;
 }
 .ilustraciones .tituloIlustraciones{
 	width: 100%;

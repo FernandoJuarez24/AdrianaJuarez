@@ -10,10 +10,10 @@ window.onscroll = () => {
 	//PEGAR MENU
 	if (window.pageYOffset >= pegar) {
        menu.classList.add('pegar');
-       main.style.marginTop = '170px';
+       main.style.marginTop = '0px';
     }else{
         menu.classList.remove('pegar');
-        main.style.marginTop = '100px'; 
+       	main.style.marginTop = '0px'; 
     }
 
 	  //HOME
