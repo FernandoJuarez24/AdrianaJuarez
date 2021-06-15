@@ -5,13 +5,25 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Adriana Járez | Artista Gráfica</title>
 
+	<!--Descripcion-->
+	<meta name="descripcion" content="curso de HTML Avanzado">
+
+	<!--Keywords-->
+	<meta name="keywords" content="curso, tutorial, web, html, html5">
+
 	<!--Estilos-->
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<link rel="stylesheet" type="text/css" href="css/responsivo.css">
 
 	<!--Fuente-->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+
+	<!--Favicon-->
+	<link rel="icon" href="icon.png" type="image/png" />
+
+	<!--Animaciones-->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -65,11 +77,11 @@
 				<h1>Ilustraciones</h1>
 			</div>
 
-			<div class="tituloSecciones">
+			<div class="tituloSecciones" data-aos="fade-up" data-aos-duration="1000">
 				<h2>Mejor Ilustraciones DestrInktober 2020</h2>
 			</div>
 
-			<div class="contenedorIlustraciones">
+			<div class="contenedorIlustraciones" data-aos="fade-up" data-aos-duration="1000">
 				<div class="imgCard">
 					<img src="img/ilustraciones/Inktober2020/01.jpg" alt="Tema - Gigante">
 				</div>
@@ -119,7 +131,7 @@
 		<!--ABOUT-->
 		<section class="about" id="about">
 			<figure class="aboutImg">
-				<div class="aboutContenedor">
+				<div class="aboutContenedor" data-aos="zoom-in" data-aos-duration="1000">
 					<div class="aboutTitulo">
 						<h2>Conociendo a la Artista</h2>
 					</div>
@@ -149,5 +161,8 @@
 <!--Scripts-->
 <script src='js/app.js'></script>
 <script src="https://kit.fontawesome.com/15876357fa.js" crossorigin="anonymous"></script>	
+<!--Animaciones-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
 </body>
 </html>
