@@ -54,18 +54,8 @@
 	.ilustraciones .tituloIlustraciones{
 		padding: 10px;
 	}
-	.ilustraciones .contenedorIlustraciones{
+	.ilustraciones .galeriaContenedor{
 		grid-template-columns: 1fr;
-	}
-	.listaGaleria{
-		display: none;
-	}
-	.galeriaModal #imgModal{
-		width: 42%;
-		height: 450px;
-	}
-	.about .aboutImg .aboutContenedor{
-		width: 85%;
 	}
 	.imgHeader .headerInfo .btnDown{
 		font-size: 15px;
