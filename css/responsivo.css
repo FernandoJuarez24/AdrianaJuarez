@@ -115,6 +115,12 @@
 		font-size: 15px;
 		padding: 20px;
 	}
+	.contacto .contactoContenedor .contactoTitulo h2{
+		font-size: 40px;
+	}
+	.contacto .contactoContenedor .formularioContenedor{
+		width: 100%;
+	}
 }
 
 @media only screen and (max-width: 360px){
